@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta keywords= "UP, Produccion Digital, html5">
+		<title>Home</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/styles.css" type="text/css" rel="stylesheet">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="img/index/icono.ico">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Roboto:wght@500&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+		<header>
+			<nav class="navbar navbar-light navbar-expand-lg barra">
+				<div class="container-fluid">
+					<a href="#"><img src="img/index/menu.png" alt="menu" class="menuicon"></a>
+					
+					<button class="navbar-toggler me-5 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      					<span class="navbar-toggler-icon"></span>
+					</button>
+				 
+					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="galeria.html">Galeria</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="historia.html">Historia</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="form.html">Contacto</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="tienda.html">Tienda</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="vanguardias.html">Otras Vanguardias</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="col-12 separador2"></div>
+						<h1>¿Queres publicar alguna noticia reciente o solicitar algun cambio? ¡Contactanos!</h1>
+					</div>
+				</div>
+				
+				<form action="" method="post" class="row g-3 formtxt" netlify>
+					<div class="col-12">
+						<label for="inputName" class="form-label">Nombre</label>
+						<input type="text" class="form-control" id="inputName" placeholder="Escribir nombre" required>
+					</div>
+					<div class="col-12">
+						<label for="inputSurname" class="form-label">Apellido</label>
+						<input type="text" class="form-control" id="inputSurname" placeholder="Escribir apellido" required>
+					</div>
+					<div class="col-12">
+						<label for="inputEmail" class="form-label">Email</label>
+						<input type="email" class="form-control" id="inputEmail4" placeholder="ejemplo@gmail.com" required>
+					</div>
+					<div class="col-12">
+						<label for="inputNumber" class="form-label">Numero de telefono</label>
+						<input type="text" class="form-control" id="inputNumber" placeholder="Ej:+23 324521234" required>
+					</div>
+					<div class="col-12">
+						<label for="inputDireccion" class="form-label">Direccion</label>
+						<input type="text" class="form-control" id="inputDireccion" placeholder="Departemento, estudio, etc" required>
+					</div>
+					<div class="col-12 input-group">
+						<span class="input-group-text">Mensaje</span>
+						<textarea class="form-control" aria-label="With textarea" required></textarea>
+					</div>
+					<div class="col-12">
+						<button type="submit" class="btn btn-primary">Enviar</button>
+					</div>
+				</form>	
+				
+				<div class="row pb-5 justify-content-center">
+					<div class="col-md-8">
+					<h3>Atencion!</h3>
+						<p>Nuestros operadores pueden estar ocupados por lo que la respuesta de tu mensaje puede demorarse hasta 48hs en responderse. Si ya han pasado mas de 48hs (dias habiles) y aun no te hemos respondido, no dudes en contactarde con constructivismo@help.com</p>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		
+		<footer>
+			<div class="col-12 justify-content-center footer bg-dark">
+				<div class="row d-flex justify-content-center justify-content-md-start">
+					<div class="col-12 col-md-6">
+						<p>Todos los derechos reservados</p>
+					</div>
+					<div class="col-12 col-md-6">
+						<p>Produccion Digital III</p>
+					</div>
+					<div class="col-12 align-self-center">
+						<a href="index.html"><button type="button" class="btn btn-danger btn-lg btndanger">Home</button></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<script src="js/bootstrap.bundle.min.js"></script>
+		
+	</body>
+</html>

@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	overflow-x: hidden;
+}
+
+section{
+
+}
+
+a{
+	font-family: 'Alfa Slab One', cursive;
+}
+
+.container{
+	background-color: #1D1D1D;
+}
+
+h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	padding-top: 20px;
+	margin: 25px 0px;
+	color: #E34144;
+}
+
+.all{
+	margin-top: 20px;
+	border-top: #494949 solid;
+	padding-top: 50px;
+}
+
+label{
+	color: aliceblue;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 35px;
+	padding: 20px 0px;
+}
+
+h3{
+	font-family: 'Alfa Slab One', cursive;
+	color:#E34144;
+}
+
+h4{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	color: aliceblue;
+}
+
+h5{
+	text-align: left;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.noticia{
+	background-color: #000000;
+	padding: 1em;
+}
+
+.footer{
+	background-color: #000000;
+	padding: 1em;
+	text-align: center;
+}
+
+body{
+	background-color: #1D1D1D;
+}
+
+.separador{
+	height: 50px;
+}
+
+.separador2{
+	height: 100px;
+}
+
+li{
+	margin: 5px 15px;
+	padding: 0px 10px;
+	border-radius: 5px;
+	font-family: 'Anton', sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+li:hover{
+	background-color: #F9D46D;
+}
+
+.barra{
+	background-color: #e1cc91;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.menuicon{
+	width: 45%;
+	margin: 0% 10%;
+}
+
+footer{
+
+	color: aliceblue;
+}
+
+footer{
+
+	color: aliceblue;
+}
+
+.similares{
+	width: 70%;
+}
+
+.formtxt{
+	text-align: left;
+}
+
+
